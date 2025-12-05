@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #5a4fcf, #4da1ff);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    backdrop-filter: blur(6px);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.regras {
+    list-style: none;
+    padding: 0;
+}
+
+.regras li {
+    margin-bottom: 12px;
+    font-size: 1.1em;
+    padding-left: 10px;
+    border-left: 3px solid rgba(255, 255, 255, 0.6);
+}
