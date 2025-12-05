@@ -7,8 +7,8 @@ body {
 }
 
 .container {
-    max-width: 600px;
-    margin: 80px auto;
+    max-width: 700px;
+    margin: 60px auto;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.08);
     border-radius: 12px;
@@ -16,18 +16,21 @@ body {
 }
 
 h1 {
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 20px;
+    font-size: 1.8em;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+    padding-bottom: 5px;
 }
 
 .regras {
     list-style: none;
     padding: 0;
+    margin-bottom: 20px;
 }
 
 .regras li {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     font-size: 1.1em;
     padding-left: 10px;
     border-left: 3px solid rgba(255, 255, 255, 0.6);
